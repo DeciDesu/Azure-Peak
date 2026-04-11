@@ -251,7 +251,7 @@
 
 /datum/intent/sword/chop/cleave
 	name = "cleave"
-	icon_state = "intear"
+	icon_state = "incleave"
 	attack_verb = list("cleaves", "tears through")
 	chargedrain = 1.8
 	chargetime = 12
@@ -287,7 +287,7 @@
 
 /datum/intent/sword/chop/cleave/prewarning()
 	if(mastermob)
-		playsound(mastermob, pick('sound/combat/rend_start.ogg'), 100, FALSE)
+		playsound(mastermob, pick('sound/combat/rend_start.ogg'), 100, FALSE) //easily spammable sad face
 
 /datum/intent/sword/chop/cleave/super
 	name = "unstoppable cleave"
@@ -356,3 +356,9 @@
 	damfactor = 1.3	//Zwei will still deal ~7-10 more damage at the same range, depending on user's STR.
 	swingdelay = 8
 
+/datum/intent/sword/chop/cleave/fallingsun //weaker version, still pretty good to use
+	maxrange = 2
+	chargetime = 15
+	damfactor = 1.2
+	chargedrain = 2
+	intent_intdamage_factor = 1.2

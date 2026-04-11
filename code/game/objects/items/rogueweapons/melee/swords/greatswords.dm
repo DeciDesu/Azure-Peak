@@ -382,3 +382,20 @@
 	minstr = 7// Lighter
 	wdefense = 8// Better defence than greatsword
 	sellprice = 60
+
+/obj/item/rogueweapon/greatsword/fallingstar
+	name = "falling star"
+	desc = "A curved executioner's blade designated as suicidal because of its ridiculously unwieldy nature. Its niche gained popularity among Graggarite warlords for its sheer raw force and homage to the Darkstar, a descending omen of devastation and war. Its curved blade design makes it suitable for swings and chops, but poor for stabbing victims."
+	possible_item_intents = list(/datum/intent/sword/cut, /datum/intent/sword/chop/heavy, /datum/intent/sword/strike)
+	gripped_intents = list(/datum/intent/sword/cut/rend, /datum/intent/sword/chop/heavy, /datum/intent/sword/cut/zwei/sweep, /datum/intent/sword/chop/cleave/fallingsun)
+	alt_grips = null
+	icon_state = "fallingstar"
+	wbalance = WBALANCE_HEAVY
+	minstr = 13 //Genuinely need to be a str chud to wield this thing, limits its general capability to be a niche and not a generalist.
+	minstr_req = TRUE //Hit the gym pal
+	wlength = WLENGTH_LONG// Less reach than greatsword!
+	swingsound = BLADEWOOSH_HUGE
+	force = 25
+	force_wielded = 40 //serious damage, but glass cannon. Bad wdef and str requirement make it difficult but rewarding to use in a fight.
+	wdefense = 2 //should give +3 wdef when wielded so total 5, least defensive option for a Gsword
+	max_blade_int = 200 //better then flamberge, worst then zwei, and still has worst wdefense then both
