@@ -393,9 +393,7 @@
 	wbalance = WBALANCE_HEAVY
 	minstr = 13 //Genuinely need to be a str chud to wield this thing, limits its general capability to be a niche and not a generalist.
 	minstr_req = TRUE //Hit the gym pal
-	wlength = WLENGTH_LONG// Less reach than greatsword!
+	wlength = WLENGTH_LONG// Not longer then a gsword, but enough to reach
 	swingsound = BLADEWOOSH_HUGE
-	force = 25
-	force_wielded = 40 //serious damage, but glass cannon. Bad wdef and str requirement make it difficult but rewarding to use in a fight.
 	wdefense = 2 //should give +3 wdef when wielded so total 5, least defensive option for a Gsword
 	max_blade_int = 200 //better then flamberge, worst then zwei, and still has worst wdefense then both
