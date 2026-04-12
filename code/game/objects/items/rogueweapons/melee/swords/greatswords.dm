@@ -394,7 +394,7 @@
 	minstr = 13 //Genuinely need to be a str chud to wield this thing, limits its general capability to be a niche and not a generalist.
 	minstr_req = TRUE //Hit the gym pal
 	force = 35
-	force_wielded = 14
+	force_wielded = 35
 	wlength = WLENGTH_LONG// Not longer then a gsword, but enough to reach
 	swingsound = BLADEWOOSH_HUGE
 	wdefense = 2 //should give +3 wdef when wielded so total 5, least defensive option for a Gsword
