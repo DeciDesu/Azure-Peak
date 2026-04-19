@@ -429,3 +429,17 @@
 
 /datum/sprite_accessory/tail/large_snake_plain/is_visible(obj/item/organ/organ, obj/item/bodypart/bodypart, mob/living/carbon/owner)
 	return TRUE	//Always visible.
+
+/datum/sprite_accessory/tail/goblin
+	name = "Goblin Imp"
+	icon = 'icons/mob/sprite_accessory/tails/tiefling.dmi'
+	icon_state = "impgob"
+	color_key_defaults = list(KEY_SKIN_COLOR)
+	can_wag = TRUE
+
+/datum/sprite_accessory/tail/goblin/tief
+	name = "Goblin Slim"
+	icon = 'icons/mob/sprite_accessory/tails/tiefling.dmi'
+	icon_state = "tiefgob"
+	color_key_defaults = list(KEY_SKIN_COLOR)
+	can_wag = TRUE

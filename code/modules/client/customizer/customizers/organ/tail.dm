@@ -98,6 +98,19 @@
 		/datum/sprite_accessory/tail/guilmon
 		)
 
+/datum/customizer/organ/tail/goblin
+	customizer_choices = list(/datum/customizer_choice/organ/tail/goblin)
+	allows_disabling = TRUE
+
+/datum/customizer_choice/organ/tail/goblin
+	name = "Goblin Tail"
+	organ_type = /obj/item/organ/tail/goblin
+	generic_random_pick = TRUE
+	sprite_accessories = list(
+		/datum/sprite_accessory/tail/goblin,
+		/datum/sprite_accessory/tail/goblin/tief
+		)
+
 /datum/customizer/organ/tail/demihuman
 	customizer_choices = list(/datum/customizer_choice/organ/tail/demihuman)
 	allows_disabling = TRUE
