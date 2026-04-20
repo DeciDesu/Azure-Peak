@@ -443,3 +443,12 @@
 	icon_state = "tiefgob"
 	color_key_defaults = list(KEY_SKIN_COLOR)
 	can_wag = TRUE
+
+/datum/sprite_accessory/tail/goblin/fluff
+	name = "Goblin Fluff"
+	icon = 'icons/mob/sprite_accessory/tails/tiefling.dmi'
+	icon_state = "fluffgob"
+	color_key_defaults = list(KEY_SKIN_COLOR)
+	color_keys = 2
+	color_key_names = list("Tail", "Tip")
+	can_wag = TRUE

@@ -108,7 +108,8 @@
 	generic_random_pick = TRUE
 	sprite_accessories = list(
 		/datum/sprite_accessory/tail/goblin,
-		/datum/sprite_accessory/tail/goblin/tief
+		/datum/sprite_accessory/tail/goblin/tief,
+		/datum/sprite_accessory/tail/goblin/fluff
 		)
 
 /datum/customizer/organ/tail/demihuman
